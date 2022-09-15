@@ -1,0 +1,93 @@
+
+
+
+// the setup function runs once when you press reset or power the board
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+void dot()
+{
+  digitalWrite(LED_BUILTIN, HIGH);   
+  delay(300);                       
+  digitalWrite(LED_BUILTIN, LOW);  
+}
+
+void dash()
+{
+  digitalWrite(LED_BUILTIN, HIGH);   
+  delay(900);
+  digitalWrite(LED_BUILTIN, LOW); 
+}
+
+
+void loop() {
+  
+//J
+dot();
+delay(300);
+dash();
+delay(300);
+dash();
+delay(300);
+dash();
+delay(900);
+
+//A
+dot();
+delay(300);
+dash();
+delay(900);
+
+//S
+dot();
+delay(300);
+dot();
+delay(300);
+dot();
+delay(900);
+
+//P
+dot();
+delay(300);
+dash();
+delay(300);
+dash();
+delay(300);
+dot();
+delay(900);
+
+//R
+dot();
+delay(300);
+dash();
+delay(300);
+dot();
+delay(900);
+
+//I
+dot();
+delay(300);
+dot();
+delay(900);
+
+//Y
+
+dash();
+delay(300);
+dot();
+delay(300);
+dash();
+delay(300);
+dash();
+delay(900);
+
+//A
+dot();
+delay(300);
+dash();
+delay(2100);
+
+
+
+}
